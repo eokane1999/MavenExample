@@ -32,7 +32,7 @@
 				<version>0.7.7.201606060606</version>
 				<configuration>
     <excludes>
-        <exclude>**/*sealights.*</exclude>
+        <exclude>**/*.*</exclude>
     </excludes>
 </configuration>
 
