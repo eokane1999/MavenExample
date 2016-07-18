@@ -49,4 +49,12 @@ public class TestDoubler {
     assertEquals(10, doubler.doDouble(5));
     assertEquals(20, doubler.doDouble(10));
   }
+  
+    @Test
+  public void doMagicTest() {
+    IntegerDoubler doubler = new BitShiftDoubler();
+
+    assertEquals(10, doubler.doDouble(5));
+    assertEquals(20, doubler.doDouble(10));
+  }
 }
