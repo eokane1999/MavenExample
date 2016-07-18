@@ -68,6 +68,10 @@
 				<!--<configuration>
 					<argLine>${surefireArgLine}</argLine>
 				</configuration>-->
+				<configuration>
+        				<parallel>all</parallel>
+        				<threadCount>10</threadCount>
+    				</configuration>
 			</plugin>
              </plugins>
     </build>
