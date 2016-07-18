@@ -6,6 +6,8 @@ import org.junit.Test;
 import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
+import org.junit.After;
+import org.junit.Before;
 
 import java.lang.Override;
 
@@ -15,13 +17,21 @@ import edu.lmu.cs.mike.impl.BitShiftDoubler;
 import edu.lmu.cs.mike.impl.MultiplicationDoubler;
 
 public class TestDoubler {
-  @Test
+  private IntegerDoubler doubler = new AdditionDoubler();
+  
+   @Before
+    public void setup() throws Exception {
+        IntegerDoubler doubler = new MultiplicationDoubler();
+    }
+
+  
+ /* @Test
   public void additionDoubler() {
     IntegerDoubler doubler = new AdditionDoubler();
 
     assertEquals(10, doubler.doDouble(5));
     assertEquals(20, doubler.doDouble(10));
-  }
+  }*/
 
   @Test
   public void multiplicationDoubler() {
