@@ -22,7 +22,6 @@ public class KukuTest {
   
    @Before
     public void setup() throws Exception {
-        //ProxySelector.setDefault(null);
         IntegerDoubler doubler = new MultiplicationDoubler();
         //throw new RuntimeException("Foo");
     }
@@ -38,6 +37,7 @@ public class KukuTest {
 
   @Test
   public void multiplicationDoubler_kuku() {
+  ProxySelector.setDefault(null);
     IntegerDoubler doubler = new MultiplicationDoubler();
 
     assertEquals(10, doubler.doDouble(5));
