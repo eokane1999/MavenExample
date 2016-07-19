@@ -22,7 +22,7 @@ public class TestDoubler {
    @Before
     public void setup() throws Exception {
         IntegerDoubler doubler = new MultiplicationDoubler();
-        throw new RuntimeException("Foo");
+        //throw new RuntimeException("Foo");
     }
 
   
