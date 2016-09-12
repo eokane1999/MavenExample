@@ -1,0 +1,26 @@
+import org.junit.*;
+import mockit.*;
+
+public class MyFirstJMockitTest
+{
+   // Mocked instances (rather than conventional "mock objects") will be
+   // automatically created and assigned to annotated mock fields:
+   @Mocked
+   Collaborator mock1; // all current and future instances are mocked
+
+   @Injectable
+   AnotherDependency anotherMock; // only one particular instance is mocked
+
+   @Test
+   public void myFirstTestMethod()
+   {
+      // Any mock field can be used here or in any other test method of the class.
+      assertTrue(true);
+   }
+
+   @Test
+   public void testMethodWithMockParameter(@Mocked YetAnotherDependency testSpecificMock)
+   {
+      assertTrue(true);
+   }
+}
