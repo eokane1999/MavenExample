@@ -1,4 +1,5 @@
 import org.junit.*;
+import static org.junit.Assert.assertEquals;
 import mockit.*;
 
 public class MyFirstJMockitTest
@@ -15,12 +16,12 @@ public class MyFirstJMockitTest
    public void myFirstTestMethod()
    {
       // Any mock field can be used here or in any other test method of the class.
-      assertTrue(true);
+      assertEquals(true, true);
    }
 
    @Test
    public void testMethodWithMockParameter(@Mocked YetAnotherDependency testSpecificMock)
    {
-      assertTrue(true);
+      assertEquals(true, true);
    }
 }
