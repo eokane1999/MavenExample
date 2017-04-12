@@ -41,7 +41,7 @@
 				<version>2.19</version>
 				
 				<configuration>
-					<argLine>${surefireArgLine}</argLine>
+					<argLine>${surefireArgLine} -verbose:class</argLine>
 				</configuration>
 			</plugin>
 			<plugin>
