@@ -8,6 +8,6 @@ public class MultiplicationDoubler implements IntegerDoubler {
   public long doDouble(int i) {
     int a = i;
     a++;
-    return i * 2;
+    return i * 3;
   }
 }
