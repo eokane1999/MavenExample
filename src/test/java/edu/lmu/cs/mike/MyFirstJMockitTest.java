@@ -1,4 +1,4 @@
-import org.junit.*;
+/*import org.junit.*;
 import static org.junit.Assert.assertEquals;
 import mockit.*;
 import edu.lmu.cs.mike.impl.*;
@@ -26,3 +26,4 @@ public class MyFirstJMockitTest
       assertEquals(true, true);
    }
 }
+*/
