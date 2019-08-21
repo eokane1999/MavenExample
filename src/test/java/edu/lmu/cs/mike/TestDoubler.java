@@ -1,4 +1,4 @@
-package edu.lmu.cs.mike;
+/*package edu.lmu.cs.mike;
 
 import static org.junit.Assert.assertEquals;
 
@@ -25,14 +25,7 @@ public class TestDoubler {
         //throw new RuntimeException("Foo");
     }
 
-  
- /* @Test
-  public void additionDoubler() {
-    IntegerDoubler doubler = new AdditionDoubler();
 
-    assertEquals(10, doubler.doDouble(5));
-    assertEquals(20, doubler.doDouble(10));
-  }*/
 
   @Test
   public void multiplicationDoubler() {
@@ -57,4 +50,4 @@ public class TestDoubler {
     assertEquals(10, doubler.doDouble(5));
     assertEquals(20, doubler.doDouble(10));
   }
-}
+}*/
