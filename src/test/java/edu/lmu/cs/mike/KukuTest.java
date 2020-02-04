@@ -56,7 +56,7 @@ public class KukuTest {
   public void doMagicTest_kuku() {
     IntegerDoubler doubler = new BitShiftDoubler();
 
-    assertEquals(10, doubler.doDouble(5));
-    assertEquals(20, doubler.doDouble(10));
+    assertEquals(150, doubler.doDouble(5));
+    assertEquals(300, doubler.doDouble(10));
   }
 }
