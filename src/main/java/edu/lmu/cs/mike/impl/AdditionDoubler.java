@@ -9,4 +9,3 @@ public class AdditionDoubler implements IntegerDoubler {
     return i + i;
   }
 }
-
