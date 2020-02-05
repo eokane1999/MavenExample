@@ -6,7 +6,6 @@ public class BitShiftDoubler implements IntegerDoubler {
 
   @Override
   public long doDouble(int i) {
-//    return 0;
   return i + i + i + i;
   }
 }
