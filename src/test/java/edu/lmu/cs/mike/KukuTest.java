@@ -40,8 +40,8 @@ public class KukuTest {
   ProxySelector.setDefault(null);
     IntegerDoubler doubler = new MultiplicationDoubler();
 
-    assertEquals(10, doubler.doDouble(5));
-    assertEquals(20, doubler.doDouble(10));
+    assertEquals(150, doubler.doDouble(5));
+    assertEquals(300, doubler.doDouble(10));
   }
 
   @Test
@@ -56,7 +56,7 @@ public class KukuTest {
   public void doMagicTest_kuku() {
     IntegerDoubler doubler = new BitShiftDoubler();
 
-    assertEquals(150, doubler.doDouble(5));
-    assertEquals(300, doubler.doDouble(10));
+    assertEquals(20, doubler.doDouble(10));
+    assertEquals(40, doubler.doDouble(20));
   }
 }
