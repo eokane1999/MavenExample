@@ -52,11 +52,11 @@ public class KukuTest {
     assertEquals(20, doubler.doDouble(10));
   } */
   
-/*    @Test
+  @Test
   public void doMagicTest_kuku() {
     IntegerDoubler doubler = new BitShiftDoubler();
 
     assertEquals(10, doubler.doDouble(5));
     assertEquals(20, doubler.doDouble(10));
-  } */
+  }
 }
